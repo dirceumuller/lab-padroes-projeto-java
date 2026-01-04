@@ -39,19 +39,17 @@ public class Test {
 		
 		Robo robo = new Robo();
 		robo.setComportamento(normal);
-		robo.mover();
-		robo.mover();
+		robo.mover(2);
 		robo.setComportamento(defensivo);
-		robo.mover();
+		robo.mover(3);
 		robo.setComportamento(agressivo);
-		robo.mover();
-		robo.mover();
-		robo.mover();
+		robo.mover(1);
+
 		
 		// Facade
 		
 		Facade facade = new Facade();
-		facade.migrarCliente("Venilton", "14801788");
+		facade.migrarCliente("Dirceu", "12917040");
 	}
 
 }
